@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Ex2_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Ex2_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="39.301 ns"></ZoomEndTime>
+      <Cursor1Time time="26.500 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="100"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="12" />
+   <wvobject fp_name="/Ex2_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Ex2_tb/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Ex2_tb/regwrite" type="logic">
+      <obj_property name="ElementShortName">regwrite</obj_property>
+      <obj_property name="ObjectShortName">regwrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Ex2_tb/read1" type="array">
+      <obj_property name="ElementShortName">read1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">read1[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Ex2_tb/read2" type="array">
+      <obj_property name="ElementShortName">read2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">read2[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Ex2_tb/write_reg" type="array">
+      <obj_property name="ElementShortName">write_reg[4:0]</obj_property>
+      <obj_property name="ObjectShortName">write_reg[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Ex2_tb/write_data" type="array">
+      <obj_property name="ElementShortName">write_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">write_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Ex2_tb/read1_data" type="array">
+      <obj_property name="ElementShortName">read1_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">read1_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Ex2_tb/read2_data" type="array">
+      <obj_property name="ElementShortName">read2_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">read2_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Ex2_tb/clk_period" type="array">
+      <obj_property name="ElementShortName">clk_period[31:0]</obj_property>
+      <obj_property name="ObjectShortName">clk_period[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Ex2_tb/n" type="array">
+      <obj_property name="ElementShortName">n[31:0]</obj_property>
+      <obj_property name="ObjectShortName">n[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Ex2_tb/inst/reg_array" type="array">
+      <obj_property name="ElementShortName">reg_array[31:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_array[31:0][31:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+</wave_config>
